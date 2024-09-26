@@ -10,12 +10,18 @@ print (" ")
 print ("Torres Olvera Gael")
 print (" ")
 
-Ap = ("Torres") #Establecemos los
-Am = ("Olvera") #Valores del
-Na = ("Gael") #Nombre por separado
+Ap = str(input()) #Establecemos los
+
+Am = str(input()) #Valores del
+
+Na = str(input()) #Nombre por separado
+
+print (" ") #Salto de linea
 
 print (Ap) #Imprimimos por
+
 print (Am) #Separado los
+
 print(Na) #Valores establecidos
 
 print (" ") #Salto de linea
@@ -28,5 +34,5 @@ Name = (Ap + " " + Am + " " + Na) #Simplifica la linea de codigo
 
 print (Name.upper()) #Establece el comando upper para imprimirlo en mayusculas
 
-![image](https://github.com/user-attachments/assets/e933d61f-72b0-4275-93df-2bade0c982ea)
-![image](https://github.com/user-attachments/assets/01dd9b39-cc8f-4df2-8a8f-a1445afbeabe)
+![image](https://github.com/user-attachments/assets/6ffeda16-28ae-41a7-9588-bdfd635519c1)
+![image](https://github.com/user-attachments/assets/89398d27-a4bb-47ca-82e2-93f0f2e25870)
