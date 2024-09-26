@@ -4,9 +4,11 @@ print (" ")
 print ("Torres Olvera Gael")
 print (" ")
 
-Ap = ("Torres") #Establecemos los
-Am = ("Olvera") #Valores del
-Na = ("Gael") #Nombre por separado
+Ap = str(input()) #Establecemos los
+Am = str(input()) #Valores del
+Na = str(input()) #Nombre por separado
+
+print (" ") #Salto de linea
 
 print (Ap) #Imprimimos por
 print (Am) #Separado los
