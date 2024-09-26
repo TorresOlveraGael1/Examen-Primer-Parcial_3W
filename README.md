@@ -2,7 +2,7 @@
 
 Torres Olvera Gael
 
-Examen Primer Parcial
+# Examen Primer Parcial
 
 #Desplegar tu nombre completo con los últimos 4 dígitos de tu numero de control y el grupo al inicio de cada ejercicio
 
@@ -37,7 +37,7 @@ print (Name.upper()) #Establece el comando upper para imprimirlo en mayusculas
 ![image](https://github.com/user-attachments/assets/6ffeda16-28ae-41a7-9588-bdfd635519c1)
 ![image](https://github.com/user-attachments/assets/89398d27-a4bb-47ca-82e2-93f0f2e25870)
 
-ALGORITMO:
+# ALGORITMO:
 
 #Desarrolle un algoritmo que permita leer tres valores y almacenarlos en las variables A, B y C respectivamente.
 
@@ -96,7 +96,7 @@ elif C == A or C == B:
 ![image](https://github.com/user-attachments/assets/4011ddd1-c203-4ae9-9dab-548712e305cb)
 ![image](https://github.com/user-attachments/assets/6f040a3a-6279-4bee-9240-748580b9118b)
 
-2 VALORES:
+# 2 VALORES:
 
 #Desarrollar código que lea dos valores que captures, determinar cual de los dos valores es el menor
 
@@ -130,7 +130,7 @@ print ("La suma de ambos valores es: ", suma) #Ordena al sistema mostrar el resu
 ![image](https://github.com/user-attachments/assets/4c4d8f27-d5d1-492a-a1df-6870dfc77d26)
 ![image](https://github.com/user-attachments/assets/80322155-72f7-4867-803c-ce84e74d6214)
 
-PERIMETRO:
+# PERIMETRO:
 
 #Hallar el perímetro y el área de un rectángulo
 
@@ -149,7 +149,7 @@ print ("El perimetro del rectangulo es: ", perimetro) #Ordena ala sistema a most
 ![image](https://github.com/user-attachments/assets/41c68668-da0d-466e-b32a-9a4f621d414c)
 ![image](https://github.com/user-attachments/assets/273369de-d776-4384-85db-8ab11d315155)
 
-PUNTO 7 Y 8 NUMEROS NATURALES:
+# PUNTO 7 Y 8 NUMEROS NATURALES:
 
 #Solicitar al usuario un número natural
 
@@ -184,7 +184,7 @@ else:
 ![image](https://github.com/user-attachments/assets/45b21dd9-1e92-4eac-9f1b-c19b8ae8906e)
 ![image](https://github.com/user-attachments/assets/edc927c3-76ca-4ec2-b85c-280c1d601dff)
 
-NUMERO ENTERO:
+# NUMERO ENTERO:
 
 #Ingresar un número entero para saber si es divisible por 7 y es mayor a 40.
 
@@ -211,7 +211,7 @@ else:
 ![image](https://github.com/user-attachments/assets/79cac984-09cb-4fcc-a91d-6e5fb7373a9e)
 ![image](https://github.com/user-attachments/assets/c6cd5a99-ff15-4eaa-b1eb-be71c4630a47)
 
-FACTORIAL:
+# FACTORIAL:
 
 #Desarrollar un programa que lee un valor y determine su factorial.
 
@@ -231,7 +231,7 @@ def factorial(n):
             result *= i
         return result
 
-# Leer un valor que el usuario proporciona y proporcionarle la factorial
+#Leer un valor que el usuario proporciona y proporcionarle la factorial
 try:
     number = int(input("Introduce un número entero para calcular su factorial: "))
     print(f"El factorial de {number} es: {factorial(number)}")
