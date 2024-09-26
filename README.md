@@ -37,6 +37,7 @@ print (Name.upper()) #Establece el comando upper para imprimirlo en mayusculas
 ![image](https://github.com/user-attachments/assets/6ffeda16-28ae-41a7-9588-bdfd635519c1)
 ![image](https://github.com/user-attachments/assets/89398d27-a4bb-47ca-82e2-93f0f2e25870)
 
+ALGORITMO:
 
 #Desarrolle un algoritmo que permita leer tres valores y almacenarlos en las variables A, B y C respectivamente.
 
@@ -95,5 +96,55 @@ elif C == A or C == B:
 ![image](https://github.com/user-attachments/assets/4011ddd1-c203-4ae9-9dab-548712e305cb)
 ![image](https://github.com/user-attachments/assets/6f040a3a-6279-4bee-9240-748580b9118b)
 
+2 VALORES:
+
+#Desarrollar código que lea dos valores que captures, determinar cual de los dos valores es el menor
+
+print (" ")
+print ("Torres Olvera Gael")
+print (" ")
 
 
+A = int(input("Introduzca el primer valor: ")) #Establecemos los
+
+B = int(input("Introduzca el segundo valor: ")) #Valores a utilizar
+
+print (" ") #Salto de linea
+
+#Abrimos cadena 'If'
+
+if A > B:
+
+    print (A, "Es mayor que: ", B)
+    
+else:
+
+    print (B, "Es mayor que:", A)
+
+print (" ") #Salto de linea
+
+suma = A+B #Ordena al sistema realizar una operacion
+
+print ("La suma de ambos valores es: ", suma) #Ordena al sistema mostrar el resultado
+
+![image](https://github.com/user-attachments/assets/4c4d8f27-d5d1-492a-a1df-6870dfc77d26)
+![image](https://github.com/user-attachments/assets/80322155-72f7-4867-803c-ce84e74d6214)
+
+PERIMETRO:
+
+#Hallar el perímetro y el área de un rectángulo
+
+print (" ")
+print ("Torres Olvera Gael")
+print (" ")
+
+A = int(input("Introduzca el primer valor: ")) #Establecemos los
+
+B = int(input("Introduzca el segundo valor: ")) #Valores a utilizar
+
+perimetro = A*2 + B*2 #Establece la operacion a realizar
+
+print ("El perimetro del rectangulo es: ", perimetro) #Ordena ala sistema a mostrar el resultado de la operacion
+
+![image](https://github.com/user-attachments/assets/41c68668-da0d-466e-b32a-9a4f621d414c)
+![image](https://github.com/user-attachments/assets/273369de-d776-4384-85db-8ab11d315155)
