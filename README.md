@@ -184,3 +184,31 @@ else:
 ![image](https://github.com/user-attachments/assets/45b21dd9-1e92-4eac-9f1b-c19b8ae8906e)
 ![image](https://github.com/user-attachments/assets/edc927c3-76ca-4ec2-b85c-280c1d601dff)
 
+NUMERO ENTERO:
+
+#Ingresar un número entero para saber si es divisible por 7 y es mayor a 40.
+
+print (" ")
+print ("Torres Olvera")
+print (" ")
+
+A = int(input("Introduce un valor: ")) #Solcita un valor al usuario
+
+print (" ") #Salto de linea
+
+div = A/7 #Ordena al sistema realizar una operacion
+
+
+#Abrimos cadena 'If'
+
+if div > 40:
+
+    print (div, "Es superior a 40")
+else:
+
+    print (div, "No es superior a 40")
+
+![image](https://github.com/user-attachments/assets/79cac984-09cb-4fcc-a91d-6e5fb7373a9e)
+![image](https://github.com/user-attachments/assets/c6cd5a99-ff15-4eaa-b1eb-be71c4630a47)
+
+
