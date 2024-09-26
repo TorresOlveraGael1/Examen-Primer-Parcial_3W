@@ -211,4 +211,32 @@ else:
 ![image](https://github.com/user-attachments/assets/79cac984-09cb-4fcc-a91d-6e5fb7373a9e)
 ![image](https://github.com/user-attachments/assets/c6cd5a99-ff15-4eaa-b1eb-be71c4630a47)
 
+FACTORIAL:
 
+#Desarrollar un programa que lee un valor y determine su factorial.
+
+print (" ")
+print ("Torres Olvera Gael")
+print (" ")
+
+#establece la orden al sistema para poder proporcionar la factorial
+def factorial(n):
+    if n < 0:
+        return "El factorial no está definido para números negativos."
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        result = 1
+        for i in range(2, n + 1):
+            result *= i
+        return result
+
+# Leer un valor que el usuario proporciona y proporcionarle la factorial
+try:
+    number = int(input("Introduce un número entero para calcular su factorial: "))
+    print(f"El factorial de {number} es: {factorial(number)}")
+except ValueError:
+    print("Por favor, introduce un número entero válido.")
+    
+![image](https://github.com/user-attachments/assets/d681acd7-0f8f-45b5-b397-c1c2bd8efb87)
+![image](https://github.com/user-attachments/assets/2b18560d-6e3f-405e-b282-7707012401ad)
