@@ -148,3 +148,39 @@ print ("El perimetro del rectangulo es: ", perimetro) #Ordena ala sistema a most
 
 ![image](https://github.com/user-attachments/assets/41c68668-da0d-466e-b32a-9a4f621d414c)
 ![image](https://github.com/user-attachments/assets/273369de-d776-4384-85db-8ab11d315155)
+
+PUNTO 7 Y 8 NUMEROS NATURALES:
+
+#Solicitar al usuario un número natural
+
+print (" ")
+print ("Torres Olvera Gael")
+print (" ")
+
+A = int(input("Introduce un valor: ")) #Solcita un valor al ususario
+
+print (" ") #Salto de linea
+
+#Abrimos cadena 'If'
+
+if A <= 12:
+
+    print ("El numero es:", A, "Y esta dentro del rango de la primera docena de numeros")
+else:
+
+    print ("El numero es:", A, "Y NO esta dentro del rango de la primera docena de numeros")
+
+print (" ") #Salto de linea
+
+#Abrimos segunda cadena 'If'
+
+if A % 2 == 0 :
+
+    print ("El numero es par")
+else:
+
+    print ("El numero es impar")
+
+![image](https://github.com/user-attachments/assets/45b21dd9-1e92-4eac-9f1b-c19b8ae8906e)
+![image](https://github.com/user-attachments/assets/edc927c3-76ca-4ec2-b85c-280c1d601dff)
+
